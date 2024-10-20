@@ -44,13 +44,13 @@ The pipeline includes the following stages:
 
 ## Usage
 
-### 1. Model Training
+1. **Model Training**
 
 To train the model from scratch, run the following command:
 
 ```bash
 python src/train.py
-
+```bash
 
 
 ## Model Configuration
