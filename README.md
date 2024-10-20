@@ -50,12 +50,15 @@ To train the model from scratch, run the following command:
 
 ```bash
 python src/train.py
-```bash
+```
 
 
 ## Model Configuration
 
 **Backbone:** EfficientNet-B0 (pretrained on ImageNet).
+
 **Loss:** Mean Squared Error (MSE) between the real and predicted bounding box coordinates.
+
 **Optimizer:** Adam with an initial learning rate of 0.001.
+
 **Augmentation:** Resizing, horizontal and vertical flips, and random rotations are applied during training.
