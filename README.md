@@ -1,5 +1,6 @@
-# Convolutional_Neural-_Networks-CNN-
-Convolutional neural networks (CNN) specialize in dealing with images and videos. They enable the detection of objects, identification of people, autonomous cars, etc.
+# Object Localization in Images with PyTorch
+
+Object localization refers to the task of identifying and locating an object within an image by predicting a bounding box around it. This project implements a deep learning-based solution using PyTorch and convolutional neural networks (CNNs). The model is built on top of EfficientNet, a highly efficient and accurate neural network architecture, which is fine-tuned to predict bounding box coordinates. The project demonstrates how data augmentation, model training, and evaluation can be performed for object localization tasks.
 
 
 ## Description
