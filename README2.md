@@ -57,6 +57,9 @@ python src/train.py
 ## Configuración del Modelo
 
 **Backbone:** EfficientNet-B0 (preentrenado en ImageNet).
+
 **Pérdida:** Error Cuadrático Medio (MSE) entre las coordenadas del bounding box real y predicho.
+
 **Optimizador:** Adam, con tasa de aprendizaje inicial de 0.001.
+
 **Aumentación:** Se aplica resize, flips horizontales y verticales, y rotación aleatoria durante el entrenamiento.
